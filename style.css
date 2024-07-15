@@ -52,7 +52,7 @@ div {
   width: 200px;
   background-color: #555;
   position: absolute;
-  top: 79vh;
+  top: 84vh;
 }
 
 .roof {
@@ -62,7 +62,7 @@ div {
   border-right: 100px solid transparent;
   border-bottom: 90px solid rgb(86, 126, 185);
   position: absolute;
-  top: 67vh;
+  top: 76vh;
 }
 .door {
   width: 50px;
@@ -70,4 +70,44 @@ div {
   background: rgb(86, 126, 185);
   position: absolute;
   top: 92vh;
+}
+#form {
+  display: block;
+  border: solid black;
+  width: 149px;
+}
+
+@media (max-width: 1024px) {
+  .cloud-1 {
+    width: 250px;
+  }
+  .cloud-2 {
+    width: 250px;
+  }
+  .cloud-3 {
+    width: 250px;
+  }
+}
+@media (max-width: 480px) {
+  .cloud-1 {
+    width: 50px;
+    height: 70px;
+  }
+  .cloud-2 {
+    width: 50px;
+    height: 70px;
+  }
+  .cloud-3 {
+    width: 50px;
+    height: 70px;
+  }
+  .sun {
+    width: 50px;
+    height: 50px;
+    background: rgb(233, 219, 19);
+    box-shadow: 0 0 20px rgb(164, 175, 1);
+    border-radius: 50%;
+    margin: 0px;
+    padding: 0px;
+  }
 }
