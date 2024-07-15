@@ -1,0 +1,73 @@
+* {
+  background-color: rgb(149, 231, 231);
+}
+
+div {
+  background-color: rgb(149, 231, 231);
+}
+
+.scene-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cloud-1 {
+  width: 350px;
+  height: 120px;
+  background: #eceff1;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+.cloud-2 {
+  width: 350px;
+  height: 120px;
+  background: #eceff1;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+.cloud-3 {
+  width: 350px;
+  height: 120px;
+  background: #eceff1;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+.sun {
+  width: 100px;
+  height: 100px;
+  background: rgb(233, 219, 19);
+  box-shadow: 0 0 20px rgb(164, 175, 1);
+  border-radius: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.scene-2 {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.house-main {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  position: absolute;
+  top: 79vh;
+}
+
+.roof {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 90px solid rgb(86, 126, 185);
+  position: absolute;
+  top: 67vh;
+}
+.door {
+  width: 50px;
+  height: 100px;
+  background: rgb(86, 126, 185);
+  position: absolute;
+  top: 92vh;
+}
